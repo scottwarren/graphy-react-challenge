@@ -1,57 +1,57 @@
-![Graphy Careers](https://graphy-static.ams3.cdn.digitaloceanspaces.com/careers-alt.png)
-
 # Graphy React Coding Challenge
 
-Hey! 👋
+![Graphy Careers](https://graphy-static.ams3.cdn.digitaloceanspaces.com/careers-alt.png)
 
-Thanks for your interest in joining the Graphy team. This open-ended coding challenge is part of our evaluation process. We think (and hope you agree) that this approach is way better than asking you to solve interview puzzles or to scribble algorithms on a whiteboard.
+Hi there! 👋
 
-We know this will be a significant investment of effort from your side, but one we hope will be worthwhile for both you and us. Even if your application to Graphy is ultimately unsuccessful, feel free to include what you produce for this challenge in your personal portfolio.
+Thank you for your interest in joining the Graphy team. This open-ended coding challenge is part of our evaluation process. We believe that this approach is better than asking you to solve interview puzzles or to write algorithms from memory (as if Wikipedia didn't exist).
 
-## Challenge
+Because the challenge is open-ended, it's possible to spend a long time on this. Please limit yourself to working on this challenge for **no more than 6 hours**. It's expected that you will not get through all the requirements (or at least not to the level that you'd like). That's ok! As you'll see, articulating what you'd envision working on next is part also of the challenge.
 
-Write a small React app that allows users to add annotations.
+## The challenge
+
+Your task is to write a React app that allows users to add annotations to arbitrary points on a canvas.
 
 ## Prerequisites
 
-1. Make sure you have these installed on your machine:
+1. Make sure you have these installed:
     1. [Node](https://nodejs.org/en/)
     2. [Yarn](https://yarnpkg.com/en/docs/install) (optional)
 2. Follow the setup instructions below.
 
 ## Setup
 
-1. Clone this repo to your local machine.
-2. The repo includes a super basic React starter app.
+1. Clone this repo to your dev environment.
+2. The repo includes a very basic React starter app.
 3. Run `yarn` (or `npm install`).
 4. Run `yarn dev` (or `npm run dev`) to start the dev server.
 
-## Guidelines
+## Requirements
 
-1. Make it possible to add annotations anywhere on the screen.
+1. Add functionality that allows users to add annotations anywhere on the screen.
 2. When an annotation is added, a marker is generated and shown on the screen.
-3. Markers should be interactive. When you hover over a marker, the annotation should show up as a tooltip. Implement your own version of tooltips (don't use "title" for that).
-4. **BONUS:** Annotations should be editable and deletable.
-5. **BONUS:** Figure out a way to efficiently interact with markers that overlap. For instance, in data visualization you can have charts with lots of data points. To interact with large amounts of data points (or lines), an invisible Voronoi diagram is generated which makes the interaction easy and intuitive ([see example](https://bl.ocks.org/mbostock/8033015)). How would you solve this for annotations?
+3. Markers should be interactive. When you hover over a marker, the annotation should show up as a tooltip. Please implement your own version of tooltips (e.g. don't use an external library or the "title" attribute).
+4. Add the ability to edit and delete annotations.
+5. ***Bonus*** When hovering over a marker, the annotation tooltip will be shown. Make sure this tooltip never overflows the screen. In other words, make sure these tooltips are always visible on the screen and they don't get cropped.
+6. ***Bonus*** Add support for multi-line annotations.
+7. ***Bonus*** You'll notice that as you add more and more markers, many of the tooltips will start to overlap with other markers making it difficult to select those overlapped markers. Please implement a way to make this interaction more user friendly. *Hint: When interacting with large numbers of data points (or lines), [Voronoi diagrams](https://en.wikipedia.org/wiki/Voronoi_diagram) can be generated to help delimit invisible boundaries around a given point. Check out this multi-line chart [example](https://bl.ocks.org/mbostock/8033015) for a working example.*
+8. Finally, write 1-2 paragraph on what you would focus on next in the project, if you had time.
 
-## Sketch
+## Wireframe
 
-There are some things mentioned in this readme, and this illustration explains these.
+This is a wireframe of several of the requirements mentioned above.
 
 ![Illustration](https://i.imgur.com/1k84vVF.png)
 
-## Requirements
+## Guidelines & some tips
 
-1. It's up to you how the tooltips should look like. But we like shiny things, so you'll get more points if you nail the UI.
-2. You'll also get points if your solution handles more use cases than described and include things that would make sense in a real-world scenario.
-3. You should not use any third-party library that implements annotations or tooltips (eg react-annotation for annotations, react-tippy for tooltips etc).
-4. We value attention to small details. Be creative! 🎨
+1. As stated before, please don't use any third-party library that implements annotations or tooltips (e.g. react-annotation for annotations, react-tippy for tooltips, etc).
+2. We don't expect 100% test coverage but we do expect to see at least some level of testing.
+3. The design is up to you. We won't be looking for polished, production ready flashiness but we do have a high bar for UX and design so you should aim to build something user-friendly and tasteful. 
+4. You may use TypeScript if you want to.
+5. We value attention to small details. Be creative! 🎨
 
-## Review
-
-How we review (todo)
-
-## Submission
+## How to submit your code
 
 1. If you use GitHub, upload your solution to GitHub and make the repo private. Add [@romans](https://github.com/romans) as a collaborator ([how do I do that?](https://help.github.com/en/articles/inviting-collaborators-to-a-personal-repository)).
 2. Alternatively, zip the repo and [email it to us](mailto:roman@graphyapp.com).
