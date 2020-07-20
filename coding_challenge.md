@@ -4,9 +4,9 @@
 
 Hi there! 👋
 
-Thank you for your interest in joining the Graphy team. This open-ended coding challenge is part of our evaluation process. We believe that this approach is better than asking you to solve interview puzzles or to write algorithms from memory (as if Wikipedia didn't exist).
+Thank you for your interest in joining the Graphy team. This open-ended coding challenge is part of our evaluation process. We believe that this approach is better than asking you to solve interview puzzles or to write algorithms from memory (as if Wikipedia doesn't exist).
 
-Because the challenge is open-ended, it's possible to spend a long time on this. Please limit yourself to working on this challenge for **no more than 6 hours**. It's expected that you will not get through all the requirements (or at least not to the level that you'd like). That's ok! As you'll see, articulating what you'd envision working on next is part also of the challenge.
+Because the challenge is open-ended, it's possible to spend a long time on this. Please limit yourself to working on this challenge for **no more than 6 hours**. It's expected that you will not get through all the requirements (or at least not to the level that you'd like). That's okay! As you'll see, articulating what you'd envision working on next is also part of the challenge.
 
 ## The challenge
 
@@ -35,7 +35,7 @@ Your task is to write a React app that allows users to add annotations to arbitr
 5. ***Bonus*** When hovering over a marker, the annotation tooltip will be shown. Make sure this tooltip never overflows the screen. In other words, make sure these tooltips are always visible on the screen and they don't get cropped.
 6. ***Bonus*** Add support for multi-line annotations.
 7. ***Bonus*** You'll notice that as you add more and more markers, many of the tooltips will start to overlap with other markers making it difficult to select those overlapped markers. Please implement a way to make this interaction more user friendly. *Hint: When interacting with large numbers of data points (or lines), [Voronoi diagrams](https://en.wikipedia.org/wiki/Voronoi_diagram) can be generated to help delimit invisible boundaries around a given point. Check out this multi-line chart [example](https://bl.ocks.org/mbostock/8033015) for a working example.*
-8. Finally, write 1-2 paragraph on what you would focus on next in the project, if you had time.
+8. Finally, write 1-2 paragraph on what on the project you would focus on next, if you had time.
 
 ## Wireframe
 
@@ -45,7 +45,7 @@ This is a wireframe of several of the requirements mentioned above.
 
 ## Guidelines & some tips
 
-1. As stated before, please don't use any third-party library that implements annotations or tooltips (e.g. react-annotation for annotations, react-tippy for tooltips, etc).
+1. As stated before, please don't use any third-party library that implements annotations or tooltips (e.g. `react-annotation` for annotations, `react-tippy` for tooltips, etc).
 2. We don't expect 100% test coverage but we do expect to see at least some level of testing.
 3. The design is up to you. We won't be looking for polished, production ready flashiness but we do have a high bar for UX and design so you should aim to build something user-friendly and tasteful. 
 4. You may use TypeScript if you want to.
