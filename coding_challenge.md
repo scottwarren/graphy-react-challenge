@@ -10,7 +10,7 @@ Because the challenge is open-ended, it's possible to spend a long time on this.
 
 ## The challenge
 
-Your task is to write a React app that allows users to add annotations to arbitrary points on a canvas.
+Your task is to write a React app that allows users to add annotations to arbitrary points on the screen.
 
 ## Prerequisites
 
